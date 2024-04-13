@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mosque/theme/custom_theme.dart';
+import 'package:mosque/generated/l10n.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -13,7 +14,7 @@ class SignIn extends StatelessWidget {
           children: [
             Center(
               child: Text(
-                "Welcome",
+                S.of(context).WELCOME,
                 style: CustomTheme.black18Bold,
               ),
             )
