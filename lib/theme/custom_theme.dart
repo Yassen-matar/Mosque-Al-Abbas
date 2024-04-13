@@ -42,10 +42,10 @@ class CustomTheme {
     );
   }
 
-  static TextStyle forgetPasswordTheme = const TextStyle(
-    color: CustomColors.primaryColor,
-    fontSize: 12,
-    fontWeight: FontWeight.w600,
+  static TextStyle black18Bold = const TextStyle(
+    color: Colors.black,
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
   );
 
   static SnackBar customSnackBar(String message, String type) {

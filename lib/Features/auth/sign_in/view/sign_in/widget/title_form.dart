@@ -15,7 +15,7 @@ class TitleForm extends StatelessWidget {
       padding: EdgeInsets.only(left: 13.w, bottom: 5.h),
       child: Text(
         title!,
-        style: CustomTheme.forgetPasswordTheme,
+        style: CustomTheme.black18Bold,
       ),
     );
   }

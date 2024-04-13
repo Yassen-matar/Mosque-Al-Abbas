@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mosque/theme/custom_theme.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -7,9 +8,15 @@ class SignIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
+            Center(
+              child: Text(
+                "Welcome",
+                style: CustomTheme.black18Bold,
+              ),
+            )
           ],
         ),
       ),
