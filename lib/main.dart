@@ -18,16 +18,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
         builder: (context, child) => GetMaterialApp(
-                localizationsDelegates: const [
-                  S.delegate,
-                  DefaultMaterialLocalizations.delegate,
-                  DefaultCupertinoLocalizations.delegate,
-                  DefaultWidgetsLocalizations.delegate
-                ],
-                debugShowCheckedModeBanner: false,
-                title: 'Al Abbas Mosque',
-                theme: CustomTheme.lightTheme,
-                home: const SignIn(),
-                getPages: getPages));
+            locale: const Locale('en', 'ar'),
+            localizationsDelegates: const [
+              S.delegate,
+              DefaultMaterialLocalizations.delegate,
+              DefaultCupertinoLocalizations.delegate,
+              DefaultWidgetsLocalizations.delegate
+            ],
+            debugShowCheckedModeBanner: false,
+            title: 'Al Abbas Mosque',
+            theme: CustomTheme.lightTheme,
+            home: const SignIn(),
+            getPages: getPages));
   }
 }
