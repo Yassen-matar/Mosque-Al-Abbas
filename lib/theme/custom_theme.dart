@@ -16,7 +16,7 @@ class CustomTheme {
               const TextTheme(bodyMedium: TextStyle(color: Colors.black))
                   .bodyMedium),
       primaryColor: CustomColors.primaryColor,
-      scaffoldBackgroundColor: CustomColors.bgColor,
+      scaffoldBackgroundColor: Colors.white,
       buttonTheme: ButtonThemeData(
         shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0)),
@@ -42,6 +42,11 @@ class CustomTheme {
     );
   }
 
+  static TextStyle white18Bold = const TextStyle(
+    color: Colors.white,
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+  );
   static TextStyle black18Bold = const TextStyle(
     color: Colors.black,
     fontSize: 18,
