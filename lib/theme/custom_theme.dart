@@ -27,14 +27,23 @@ class CustomTheme {
           textStyle: const TextStyle(fontSize: 50, color: Colors.red),
         ),
       ),
+      fontFamily: 'Cairo',
       textTheme: const TextTheme(
         displayMedium: TextStyle(
           color: CustomColors.primaryColor,
           fontSize: 14,
+          fontFamily: "Cairo",
+          fontWeight: FontWeight.w400,
+        ),
+        displaySmall: TextStyle(
+          color: CustomColors.primaryColor,
+          fontSize: 14,
+          fontFamily: "Cairo",
           fontWeight: FontWeight.w400,
         ),
         headlineMedium: TextStyle(
           color: Colors.black,
+          fontFamily: "Cairo",
           fontWeight: FontWeight.w600,
           fontSize: 16,
         ),
@@ -45,11 +54,20 @@ class CustomTheme {
   static TextStyle white18Bold = const TextStyle(
     color: Colors.white,
     fontSize: 18,
+    fontFamily: "Cairo",
+    fontWeight: FontWeight.bold,
+  );
+
+  static TextStyle grey18Bold = const TextStyle(
+    color: Colors.grey,
+    fontSize: 18,
+    fontFamily: "Cairo",
     fontWeight: FontWeight.bold,
   );
   static TextStyle black18Bold = const TextStyle(
     color: Colors.black,
     fontSize: 18,
+    fontFamily: "Cairo",
     fontWeight: FontWeight.bold,
   );
 
